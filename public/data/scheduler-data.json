@@ -1,0 +1,149 @@
+{
+  "success": true,
+  "resources": {
+    "rows": [
+      {
+        "id": "r1",
+        "name": "Mike"
+      },
+      {
+        "id": "r2",
+        "name": "Linda"
+      },
+      {
+        "id": "r3",
+        "name": "Don"
+      },
+      {
+        "id": "r4",
+        "name": "Karen"
+      },
+      {
+        "id": "r5",
+        "name": "Doug"
+      },
+      {
+        "id": "r6",
+        "name": "Peter"
+      },
+      {
+        "id": "r7",
+        "name": "Sam"
+      },
+      {
+        "id": "r8",
+        "name": "Melissa"
+      },
+      {
+        "id": "r9",
+        "name": "John"
+      },
+      {
+        "id": "r10",
+        "name": "Elle"
+      }
+    ]
+  },
+  "events": {
+    "rows": [
+      {
+        "id": 1,
+        "resourceId": "r1",
+        "startDate": "2022-03-20T10:00",
+        "endDate": "2022-03-20T12:00",
+        "name": "Click me",
+        "iconCls": "b-fa b-fa-mouse-pointer",
+        "eventColor": "pink"
+      },
+      {
+        "id": 2,
+        "resourceId": "r2",
+        "startDate": "2022-03-20T12:00",
+        "endDate": "2022-03-20T13:30",
+        "name": "Drag me",
+        "iconCls": "b-fa b-fa-arrows-alt"
+      },
+      {
+        "id": 3,
+        "resourceId": "r3",
+        "startDate": "2022-03-20T14:00",
+        "duration": 2,
+        "durationUnit": "h",
+        "name": "Double click me",
+        "eventColor": "purple",
+        "iconCls": "b-fa b-fa-mouse-pointer"
+      },
+      {
+        "id": 4,
+        "resourceId": "r4",
+        "startDate": "2022-03-20T08:00",
+        "endDate": "2022-03-20T11:00",
+        "name": "Right click me",
+        "iconCls": "b-fa b-fa-mouse-pointer"
+      },
+      {
+        "id": 5,
+        "resourceId": "r5",
+        "startDate": "2022-03-20T15:00",
+        "endDate": "2022-03-20T17:00",
+        "name": "Resize me",
+        "iconCls": "b-fa b-fa-arrows-alt-h"
+      },
+      {
+        "id": 6,
+        "resourceId": "r6",
+        "startDate": "2022-03-20T16:00",
+        "endDate": "2022-03-20T19:00",
+        "name": "Important meeting (read-only)",
+        "iconCls": "b-fa b-fa-exclamation-triangle",
+        "eventColor": "red",
+        "readOnly": true
+      },
+      {
+        "id": 7,
+        "resourceId": "r6",
+        "startDate": "2022-03-20T06:00",
+        "endDate": "2022-03-20T08:00",
+        "name": "Sports event",
+        "iconCls": "b-fa b-fa-basketball-ball"
+      },
+      {
+        "id": 8,
+        "resourceId": "r7",
+        "startDate": "2022-03-20T09:00",
+        "endDate": "2022-03-20T11:30",
+        "name": "Dad's birthday!",
+        "iconCls": "b-fa b-fa-gift",
+        "style": "background-color : teal; font-size: 18px",
+        "eventStyle": "none"
+      },
+      {
+        "id": 9,
+        "resourceId": "r8",
+        "startDate": "2022-03-20T14:00",
+        "endDate": "2022-03-20T16:00",
+        "name": "Visit dentist",
+        "iconCls": "b-fa b-fa-user-doctor",
+        "eventColor": "orange"
+      },
+      {
+        "id": 10,
+        "resourceId": "r9",
+        "startDate": "2022-03-20T10:00",
+        "endDate": "2022-03-20T14:00",
+        "name": "Car maintenance",
+        "iconCls": "b-fa b-fa-car",
+        "eventColor": "blue"
+      },
+      {
+        "id": 11,
+        "resourceId": "r10",
+        "startDate": "2022-03-20T16:00",
+        "endDate": "2022-03-20T19:00",
+        "name": "Party time",
+        "iconCls": "b-fa b-fa-cake-candles",
+        "eventColor": "purple"
+      }
+    ]
+  }
+}
