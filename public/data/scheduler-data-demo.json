@@ -49,41 +49,36 @@
       {
         "id": 1,
         "resourceId": "r1",
-        "startDate": "2022-03-20T08:00:00.000Z",
-        "endDate": "2022-03-20T10:00:00.000Z",
-        "durationUnit": "m",
+        "startDate": "2022-03-20T04:00:00-04:00",
+        "endDate": "2022-03-20T06:00:00-04:00",
         "name": "Click me",
         "iconCls": "b-fa b-fa-mouse-pointer",
-        "eventColor": "pink",
-        "duration": 120
+        "eventColor": "pink"
       },
       {
         "id": 2,
         "resourceId": "r2",
         "startDate": "2022-03-20T05:00:00-04:00",
-        "endDate": "2022-03-20T10:30:00.000Z",
-        "durationUnit": "m",
+        "endDate": "2022-03-20T06:30:00-04:00",
         "name": "Drag me",
-        "iconCls": "b-fa b-fa-arrows-alt",
-        "duration": 90
+        "iconCls": "b-fa b-fa-arrows-alt"
       },
       {
         "id": 3,
         "resourceId": "r3",
         "startDate": "2022-03-20T06:00:00-04:00",
-        "durationUnit": "m",
+        "duration": 2,
+        "durationUnit": "h",
         "name": "Double click me",
         "eventColor": "purple",
         "iconCls": "b-fa b-fa-mouse-pointer",
-        "endDate": "2022-03-20T12:00:00.000Z",
-        "duration": 120
+        "endDate": "2022-03-20T08:00:00-04:00"
       },
       {
         "id": 4,
         "resourceId": "r4",
         "startDate": "2022-03-20T07:00:00-04:00",
         "endDate": "2022-03-20T10:00:00-04:00",
-        "durationUnit": "m",
         "name": "Right click me",
         "iconCls": "b-fa b-fa-mouse-pointer"
       },
@@ -92,7 +87,6 @@
         "resourceId": "r5",
         "startDate": "2022-03-20T08:00:00-04:00",
         "endDate": "2022-03-20T10:00:00-04:00",
-        "durationUnit": "m",
         "name": "Resize me",
         "iconCls": "b-fa b-fa-arrows-alt-h"
       },
@@ -111,7 +105,6 @@
         "resourceId": "r6",
         "startDate": "2022-03-20T09:00:00-04:00",
         "endDate": "2022-03-20T11:00:00-04:00",
-        "durationUnit": "m",
         "name": "Sports event",
         "iconCls": "b-fa b-fa-basketball-ball"
       },
@@ -120,7 +113,6 @@
         "resourceId": "r7",
         "startDate": "2022-03-20T10:00:00-04:00",
         "endDate": "2022-03-20T12:30:00-04:00",
-        "durationUnit": "m",
         "name": "Dad's birthday!",
         "iconCls": "b-fa b-fa-gift",
         "style": "background-color : teal; font-size: 18px",
@@ -131,7 +123,6 @@
         "resourceId": "r8",
         "startDate": "2022-03-20T11:00:00-04:00",
         "endDate": "2022-03-20T13:00:00-04:00",
-        "durationUnit": "m",
         "name": "Visit dentist",
         "iconCls": "b-fa b-fa-user-doctor",
         "eventColor": "orange"
@@ -141,7 +132,6 @@
         "resourceId": "r9",
         "startDate": "2022-03-20T12:00:00-04:00",
         "endDate": "2022-03-20T16:00:00-04:00",
-        "durationUnit": "m",
         "name": "Car maintenance",
         "iconCls": "b-fa b-fa-car",
         "eventColor": "blue"
@@ -151,16 +141,16 @@
         "resourceId": "r10",
         "startDate": "2022-03-20T13:00:00-04:00",
         "endDate": "2022-03-20T16:00:00-04:00",
-        "durationUnit": "m",
         "name": "Party time",
         "iconCls": "b-fa b-fa-cake-candles",
         "eventColor": "purple"
       },
       {
         "readOnly": true,
-        "startDate": "2022-03-20T17:00:00",
-        "endDate": "2022-03-20T20:00:00",
-        "durationUnit": "m",
+        "startDate": "2022-03-20T17:00:00-04:00",
+        "endDate": "2022-03-20T20:00:00-04:00",
+        "duration": 0.125,
+        "durationUnit": "day",
         "cls": "",
         "iconCls": "b-fa b-fa-gift",
         "name": "Important meeting (read-only) - 2",
@@ -169,13 +159,13 @@
         "allDay": false,
         "eventColor": "#cc987d",
         "$PhantomId": "_generatede_b1f480c1-f4d0-405e-928b-8b29c83ac467",
-        "id": "52adaf5e4ed9c6df",
-        "duration": 180
+        "id": "52adaf5e4ed9c6df"
       },
       {
-        "startDate": "2022-03-20T08:00:00.000Z",
-        "endDate": "2022-03-20T11:00:00.000Z",
-        "durationUnit": "m",
+        "startDate": "2022-03-20T04:00:00-04:00",
+        "endDate": "2022-03-20T07:00:00-04:00",
+        "duration": 3,
+        "durationUnit": "hour",
         "cls": "",
         "name": "I start at 0400 local time",
         "exceptionDates": [],
@@ -184,67 +174,6 @@
         "$PhantomId": "_generatede_ee77fcd2-4917-4450-8ae8-ee98325734f8",
         "id": "9d4cd068ccc2cc5f",
         "eventColor": "#b94497",
-        "iconCls": "b-fa b-fa-gift",
-        "duration": 180
-      },
-      {
-        "startDate": "2022-03-20T04:00:00",
-        "endDate": "2022-03-20T07:00:00",
-        "durationUnit": "m",
-        "cls": "",
-        "name": "I also start at 0400 (New_York)",
-        "exceptionDates": [],
-        "resourceId": "r9",
-        "allDay": false,
-        "$PhantomId": "_generatede_37de9ea3-de75-411b-a7f8-80cbf600d5b5",
-        "id": "f0fa8460cf862df4",
-        "eventColor": "#d9dd0e",
-        "iconCls": "b-fa b-fa-gift",
-        "duration": 180
-      },
-      {
-        "startDate": "2022-03-20T04:00:00",
-        "endDate": "2022-03-20T08:00:00",
-        "duration": 240,
-        "durationUnit": "m",
-        "cls": "",
-        "name": "I start at 0400 new_york",
-        "exceptionDates": [],
-        "resourceId": "r8",
-        "allDay": false,
-        "$PhantomId": "_generatede_5ac6fe75-c4dc-446e-a883-8ef266470ce3",
-        "id": "7da754210dfad2ce",
-        "eventColor": "#291b51",
-        "iconCls": "b-fa b-fa-gift"
-      },
-      {
-        "startDate": "2022-03-20T08:00:00.000Z",
-        "endDate": "2022-03-20T12:00:00.000Z",
-        "duration": 240,
-        "durationUnit": "m",
-        "cls": "",
-        "name": "I start at 0200 denver",
-        "exceptionDates": [],
-        "resourceId": "r7",
-        "allDay": false,
-        "$PhantomId": "_generatede_fe945af2-aa75-4e19-ba0c-b9b0171801a4",
-        "id": "8ca4b3e3f038eb86",
-        "eventColor": "#65767b",
-        "iconCls": "b-fa b-fa-gift"
-      },
-      {
-        "startDate": "2022-03-20T08:00:00.000Z",
-        "endDate": "2022-03-20T11:00:00.000Z",
-        "duration": 180,
-        "durationUnit": "m",
-        "cls": "",
-        "name": "I start at 0800Z",
-        "exceptionDates": [],
-        "resourceId": "r6",
-        "allDay": false,
-        "$PhantomId": "_generatede_f1de7270-9cde-48b6-868d-5e28e00fdca6",
-        "id": "773cf56c0186f9a7",
-        "eventColor": "#59a5bf",
         "iconCls": "b-fa b-fa-gift"
       }
     ]

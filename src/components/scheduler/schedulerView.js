@@ -4,12 +4,13 @@ import MyScheduler from ".";
 export default function SchedulerView() {
   const [schedulerRef, setSchedulerRef] = useState({ timeAxis: "" });
 
+  //dynamically load the dark css to simulate our dark mode change
   useEffect(() => {
     var head = document.head;
     var link = document.createElement("link");
     link.type = "text/css";
     link.rel = "stylesheet";
-    link.href = "/themes/schedulerpro.classic-dark.css";
+    link.href = "/themes/scheduler.classic-dark.css";
     head.appendChild(link);
     return () => {
       head.removeChild(link);
@@ -23,10 +24,15 @@ export default function SchedulerView() {
     }
   }
 
-  function handleReload() {
+  async function handleReload() {
     if (schedulerRef.isDestroyed != true && schedulerRef.project) {
-      console.log("loadDataAsync");
-      schedulerRef.project.eventStore.loadDataAsync();
+      console.log("handleReload");
+
+      // console.log("schedulerRef.crudManager", schedulerRef.crudManager);
+      // schedulerRef.project.eventStore.loadDataAsync();
+      // await schedulerRef.eventStore.loadDataAsync();
+
+      schedulerRef.crudManager.load().then(() => console.log("DONE LOADING!"));
     }
   }
 

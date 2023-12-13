@@ -15,11 +15,14 @@ const schedulerConfig = {
   crudManager: {
     transport: {
       load: {
-        url: "/data/scheduler-data.json",
-        // url: "api/scheduler/load",
+        url: "api/scheduler/load",
+      },
+      sync: {
+        url: "api/scheduler/save",
       },
     },
     autoLoad: true,
+    autoSync: true,
   },
 };
 
